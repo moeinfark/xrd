@@ -1,0 +1,2 @@
+mp-api==0.41.2
+python-dotenv==1.0.1
