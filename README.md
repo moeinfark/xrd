@@ -8,6 +8,8 @@ This guide is designed to allow you to use the python codes available at this pa
 
 - In order to use these codes you need to install the packages mentioned in the “requirements” file. To do so you should open cmd in files directory and write the following command 
     “pip install -r requirements.txt”
+  
+- For running “MP xrd api” file you need to get an API key from “https://next-gen.materialsproject.org/” . you should save this key in a text file in the same directory as the python program. This file should be named “.env”. The api key inside the file should be stored in the format “MP_API_KEY={your_api_key}” with no space or anything else added to this format only replace {your_api_key} with the key you get from the website.
 
 #### how to run the code:
 
