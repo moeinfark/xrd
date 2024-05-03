@@ -13,10 +13,11 @@ This guide is designed to allow you to use the python codes available at this pa
 
 #### how to run the code:
 
+- For “mp xrd api” after providing the api key in the above mentioned format, you must search for material_id in “https://next-gen.materialsproject.org/”. Then you write down the id inside the code in line 16 as the following example which is for cubic nickel with material_id (mp-1008728)
+
+    material_id = "mp-1008728"
+  
 - For running “cod xrd cif file.py” you need to download a cif file in the same directory as the code has been saved to. After that you need to replace the file name inside the code in line 9 as the following example : 
 
     cif_file_name="file_name.cif"
 
-- For “mp xrd api” after providing the api key in the above mentioned format, you must search for material_id in “https://next-gen.materialsproject.org/”. Then you write down the id inside the code in line 16 as the following example which is for cubic nickel with material_id (mp-1008728)
-
-    material_id = "mp-1008728"
